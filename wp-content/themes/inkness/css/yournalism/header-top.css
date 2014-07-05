@@ -1,0 +1,35 @@
+body {
+	
+}
+.top_bar{
+	position:absolute;
+	top:0px;
+	width:75%;
+	left: 0;
+  	right: 0;
+  	margin: 0 auto;	
+  	background-color:#ffd500;
+  	height:29px;
+}
+.top_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size:12px;
+    position:absolute;
+    top:0px;
+    right:10px;
+    padding-top:10px;
+
+}
+
+.top_bar ul li{
+    display: inline;
+}
+.top_bar ul li{
+    transition: 1s;
+}
+.top_bar ul li:hover{
+    font-family:'bold';
+    
+}
