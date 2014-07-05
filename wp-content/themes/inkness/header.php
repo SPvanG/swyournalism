@@ -16,6 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
 <link rel="stylesheet" href="<?php echo get_bloginfo( 'template_url' ).'/css/yournalism/header-top.css'; ?>">
+<link rel="stylesheet" href="<?php echo get_bloginfo( 'template_url' ).'/css/yournalism/font.css'; ?>">
 
 </head>
 
