@@ -1,0 +1,2210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fundingpress\n"
+"POT-Creation-Date: 2013-12-08 21:32+0100\n"
+"PO-Revision-Date: 2013-12-08 21:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:5 ../funding/404.php:5
+msgid "Page not found!"
+msgstr ""
+
+#: ../404.php:14 ../funding/404.php:14
+msgid "Page not found, sorry"
+msgstr ""
+
+#: ../archive.php:45 ../category.php:40 ../search.php:124
+msgid "By"
+msgstr ""
+
+#: ../archive.php:45
+msgid "View all posts by"
+msgstr ""
+
+#: ../archive.php:46 ../author.php:237 ../category.php:51 ../search.php:125
+#: ../tag.php:46
+msgid "Read more"
+msgstr ""
+
+#: ../author.php:25
+msgid "Member: "
+msgstr ""
+
+#: ../author.php:41 ../tmp-projects.php:37
+msgid "Name:"
+msgstr ""
+
+#: ../author.php:47 ../tmp-projects.php:43
+msgid "Country:"
+msgstr ""
+
+#: ../author.php:52 ../tmp-projects.php:47
+msgid "Member Since:"
+msgstr ""
+
+#: ../author.php:58 ../tmp-projects.php:52
+msgid "Website:"
+msgstr ""
+
+#: ../author.php:77 ../functions.php:1258 ../tmp-all-projects.php:9
+#: ../tmp-projects.php:203 ../funding/funding.php:70 ../funding/funding.php:73
+#: ../pagebuilder/blocks/projects-block.php:10
+msgid "Projects"
+msgstr ""
+
+#: ../author.php:138 ../category.php:159 ../functions.php:161
+#: ../functions.php:391 ../functions.php:477 ../functions.php:564
+#: ../functions.php:661 ../functions.php:770 ../search.php:72
+#: ../tmp-projects.php:250 ../funding/tpl/f-fund-project.php:134
+#: ../pagebuilder/blocks/projects-block.php:148
+#: ../pagebuilder/blocks/projects-block.php:285
+#: ../pagebuilder/blocks/projects-block.php:422
+#: ../pagebuilder/blocks/projects-block.php:544
+msgid "Successful!"
+msgstr ""
+
+#: ../author.php:143 ../category.php:164 ../functions.php:163
+#: ../functions.php:395 ../functions.php:481 ../functions.php:568
+#: ../functions.php:665 ../functions.php:774 ../search.php:77
+#: ../tmp-projects.php:254 ../funding/tpl/f-fund-project.php:139
+#: ../pagebuilder/blocks/projects-block.php:153
+#: ../pagebuilder/blocks/projects-block.php:290
+#: ../pagebuilder/blocks/projects-block.php:427
+#: ../pagebuilder/blocks/projects-block.php:549
+msgid "Unsuccessful!"
+msgstr ""
+
+#: ../author.php:147 ../category.php:168 ../functions.php:194
+#: ../functions.php:398 ../functions.php:484 ../functions.php:571
+#: ../functions.php:668 ../functions.php:777 ../search.php:81
+#: ../tmp-projects.php:257 ../funding/tpl/f-fund-project.php:143
+#: ../funding/tpl/side.php:14 ../pagebuilder/blocks/projects-block.php:157
+#: ../pagebuilder/blocks/projects-block.php:553
+msgid "%u%"
+msgstr ""
+
+#: ../author.php:151 ../category.php:172 ../functions.php:402
+#: ../functions.php:488 ../functions.php:575 ../functions.php:672
+#: ../functions.php:781 ../search.php:85 ../tmp-projects.php:261
+#: ../funding/tpl/f-fund-project.php:147
+#: ../pagebuilder/blocks/projects-block.php:161
+#: ../pagebuilder/blocks/projects-block.php:558
+#, php-format
+msgid "%u%%"
+msgstr ""
+
+#: ../author.php:151 ../category.php:172 ../functions.php:402
+#: ../functions.php:488 ../functions.php:575 ../functions.php:672
+#: ../functions.php:781 ../search.php:85 ../tmp-projects.php:261
+#: ../funding/tpl/f-fund-project.php:147
+#: ../pagebuilder/blocks/projects-block.php:300
+#: ../pagebuilder/blocks/projects-block.php:437
+msgid "funded"
+msgstr ""
+
+#: ../author.php:155 ../category.php:176 ../functions.php:406
+#: ../functions.php:492 ../functions.php:579 ../functions.php:676
+#: ../functions.php:785 ../search.php:89 ../tmp-projects.php:265
+#: ../funding/tpl/f-fund-project.php:151
+#: ../pagebuilder/blocks/projects-block.php:303
+#: ../pagebuilder/blocks/projects-block.php:440
+msgid "target"
+msgstr ""
+
+#: ../author.php:162 ../category.php:183 ../functions.php:135
+#: ../functions.php:412 ../functions.php:498 ../functions.php:585
+#: ../functions.php:682 ../functions.php:791 ../search.php:96
+#: ../tmp-projects.php:271 ../funding/tpl/f-fund-project.php:158
+#: ../funding/tpl/side.php:10 ../pagebuilder/blocks/projects-block.php:172
+#: ../pagebuilder/blocks/projects-block.php:306
+#: ../pagebuilder/blocks/projects-block.php:443
+#: ../pagebuilder/blocks/projects-block.php:569
+msgid "days to go"
+msgstr ""
+
+#: ../author.php:202
+msgid "Author: "
+msgstr ""
+
+#: ../author.php:236 ../category.php:40 ../search.php:124 ../single.php:42
+#: ../tag.php:45 ../tmp-blog.php:56
+#: ../pagebuilder/blocks/news-blog-block.php:1
+msgid "View all posts by "
+msgstr ""
+
+#: ../category.php:13 ../category.php:92
+msgid "Category: "
+msgstr ""
+
+#: ../category.php:47
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../category.php:50
+msgid "in this post"
+msgstr ""
+
+#: ../footer.php:16
+msgid "Back to top"
+msgstr ""
+
+#: ../footer.php:19
+msgid "Privacy"
+msgstr ""
+
+#: ../footer.php:20
+msgid "Terms"
+msgstr ""
+
+#: ../footer.php:189
+msgid ""
+"<p><span>In this fields you will be able to add updates for your project. If "
+"you want to do so, you can edit the project and add more updates in the "
+"future.</span></p>"
+msgstr ""
+
+#: ../functions.php:30
+msgid "My projects"
+msgstr ""
+
+#: ../functions.php:40
+msgid "All projects"
+msgstr ""
+
+#: ../functions.php:86
+msgid "You dont have the right permissions to access this page!"
+msgstr ""
+
+#: ../functions.php:100 ../funding/admin/custom-columns.php:11
+msgid "Project Title"
+msgstr ""
+
+#: ../functions.php:101 ../funding/admin/custom-columns.php:12
+msgid "Project status"
+msgstr ""
+
+#: ../functions.php:102 ../funding/admin/custom-columns.php:13
+msgid "Progress"
+msgstr ""
+
+#: ../functions.php:103 ../funding/admin/custom-columns.php:14
+msgid "Time Remaining"
+msgstr ""
+
+#: ../functions.php:104
+msgid "Paypal"
+msgstr ""
+
+#: ../functions.php:105 ../funding/admin/custom-columns.php:15
+msgid "Creator"
+msgstr ""
+
+#: ../functions.php:107 ../funding/admin/custom-columns.php:17
+#: ../funding/admin/custom-columns.php:35
+#: ../funding/admin/metabox-settings.php:16
+msgid "Date"
+msgstr ""
+
+#: ../functions.php:136
+msgid "Project expired!"
+msgstr ""
+
+#: ../functions.php:157
+msgid "Pending!"
+msgstr ""
+
+#: ../functions.php:159
+msgid "Draft!"
+msgstr ""
+
+#: ../functions.php:165
+msgid "Active!"
+msgstr ""
+
+#: ../functions.php:225
+msgid "Footer area widgets"
+msgstr ""
+
+#: ../functions.php:227
+msgid "Widgets in this area will be shown in the footer."
+msgstr ""
+
+#: ../functions.php:234
+msgid "Blog sidebar"
+msgstr ""
+
+#: ../functions.php:236
+msgid "Widgets in this area will be shown in the blog sidebar."
+msgstr ""
+
+#: ../functions.php:259
+msgid "Header Menu"
+msgstr ""
+
+#: ../functions.php:266
+msgid "No categories"
+msgstr ""
+
+#: ../functions.php:381 ../functions.php:467 ../functions.php:554
+#: ../functions.php:651
+msgid "by"
+msgstr ""
+
+#: ../functions.php:417 ../functions.php:503 ../functions.php:590
+#: ../functions.php:687 ../pagebuilder/blocks/projects-block.php:186
+#: ../pagebuilder/blocks/projects-block.php:320
+#: ../pagebuilder/blocks/projects-block.php:582
+msgid "View all projects"
+msgstr ""
+
+#: ../functions.php:825 ../functions.php:830 ../functions.php:835
+#: ../functions.php:840 ../functions.php:845
+#, php-format
+msgid "<a href=\"%s\""
+msgstr ""
+
+#: ../functions.php:882
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../functions.php:892
+#, php-format
+msgid "Unattached <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../functions.php:1001
+msgid "Login Successful, redirecting..."
+msgstr ""
+
+#: ../functions.php:1013
+msgid "Login successful, updating..."
+msgstr ""
+
+#: ../functions.php:1023 ../functions.php:1073
+msgid "An undefined error has ocurred"
+msgstr ""
+
+#: ../functions.php:1027
+msgid "Please supply your username and password."
+msgstr ""
+
+#: ../functions.php:1045 ../wp-login.php:663
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: ../functions.php:1064
+msgid "We have sent you an email"
+msgstr ""
+
+#: ../functions.php:1252
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:1268
+msgid "Blog"
+msgstr ""
+
+#: ../functions.php:1373
+msgid "Update Fields"
+msgstr ""
+
+#: ../functions.php:1401
+msgid ""
+"\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</"
+"span>\n"
+msgstr ""
+
+#: ../functions.php:1403
+msgid "on"
+msgstr ""
+
+#: ../functions.php:1412
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: ../functions.php:1416
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:1417
+msgid ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+"moderation.</span>\\n"
+msgstr ""
+
+#: ../functions.php:1462
+msgid "Video url"
+msgstr ""
+
+#: ../functions.php:1468
+msgid "Put your project embed video URL here"
+msgstr ""
+
+#: ../functions.php:1474 ../functions.php:1480
+#: ../pagebuilder/blocks/latest-categories-block.php:21
+msgid "Staff picks"
+msgstr ""
+
+#: ../functions.php:1590 ../pluginactivation.php:122
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:1591 ../pluginactivation.php:123
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:1592 ../pluginactivation.php:124
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:1593
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:1604 ../pluginactivation.php:136
+#: ../pluginactivation.php:389
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:1605 ../pluginactivation.php:137
+#: ../pluginactivation.php:1516
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:1606
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../header.php:18
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:95
+msgid "Log out"
+msgstr ""
+
+#: ../header.php:96
+msgid "Submit a project"
+msgstr ""
+
+#: ../header.php:97
+msgid "My account"
+msgstr ""
+
+#: ../header.php:99 ../header.php:112
+msgid "Login"
+msgstr ""
+
+#: ../header.php:100 ../header.php:216 ../wp-login.php:451 ../wp-login.php:510
+#: ../wp-login.php:709
+msgid "Register"
+msgstr ""
+
+#: ../header.php:103 ../tmp-contact.php:135
+msgid "facebook"
+msgstr ""
+
+#: ../header.php:104 ../tmp-contact.php:136
+msgid "twitter"
+msgstr ""
+
+#: ../header.php:105 ../tmp-contact.php:137
+msgid "rss"
+msgstr ""
+
+#: ../header.php:106 ../tmp-contact.php:138
+msgid "google"
+msgstr ""
+
+#: ../header.php:107 ../tmp-contact.php:139
+msgid "skype"
+msgstr ""
+
+#: ../header.php:132
+msgid "Log Out"
+msgstr ""
+
+#: ../header.php:158
+msgid "Remember Me"
+msgstr ""
+
+#: ../header.php:159
+msgid "Password Lost and Found"
+msgstr ""
+
+#: ../header.php:159 ../wp-login.php:565 ../wp-login.php:710
+#: ../wp-login.php:712
+msgid "Lost your password?"
+msgstr ""
+
+#: ../header.php:161 ../wp-login.php:673
+msgid "Log In"
+msgstr ""
+
+#: ../header.php:176
+msgid "Twitter login"
+msgstr ""
+
+#: ../header.php:191
+msgid "Forgotten Password"
+msgstr ""
+
+#: ../header.php:196
+msgid "Enter username or email"
+msgstr ""
+
+#: ../header.php:202
+msgid "Get New Password"
+msgstr ""
+
+#: ../header.php:203
+msgid "Cancel"
+msgstr ""
+
+#: ../header.php:222 ../wp-login.php:544
+msgid "Register For This Site"
+msgstr ""
+
+#: ../header.php:231 ../wp-login.php:557
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: ../pluginactivation.php:125
+msgid "Something went wrong."
+msgstr ""
+
+#: ../pluginactivation.php:138
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../pluginactivation.php:413 ../pluginactivation.php:1690
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../pluginactivation.php:437
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../pluginactivation.php:576
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../pluginactivation.php:892
+msgid "External Link"
+msgstr ""
+
+#: ../pluginactivation.php:897
+msgid "Private Repository"
+msgstr ""
+
+#: ../pluginactivation.php:900
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../pluginactivation.php:904
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../pluginactivation.php:906
+msgid "Required"
+msgstr ""
+
+#: ../pluginactivation.php:906
+msgid "Recommended"
+msgstr ""
+
+#: ../pluginactivation.php:908
+msgid "Not Installed"
+msgstr ""
+
+#: ../pluginactivation.php:910
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../pluginactivation.php:1054
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../pluginactivation.php:1067
+msgid "Plugin"
+msgstr ""
+
+#: ../pluginactivation.php:1068
+msgid "Source"
+msgstr ""
+
+#: ../pluginactivation.php:1069
+msgid "Type"
+msgstr ""
+
+#: ../pluginactivation.php:1070 ../funding/admin/custom-columns.php:53
+msgid "Status"
+msgstr ""
+
+#: ../pluginactivation.php:1084
+msgid "Install"
+msgstr ""
+
+#: ../pluginactivation.php:1085
+msgid "Activate"
+msgstr ""
+
+#: ../pluginactivation.php:1502
+msgid "Install package not available."
+msgstr ""
+
+#: ../pluginactivation.php:1503
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../pluginactivation.php:1504
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../pluginactivation.php:1505
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../pluginactivation.php:1506
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../pluginactivation.php:1507
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../pluginactivation.php:1515
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../pluginactivation.php:1606
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../pluginactivation.php:1607
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../pluginactivation.php:1607 ../pluginactivation.php:1616
+msgid "Show Details"
+msgstr ""
+
+#: ../pluginactivation.php:1607 ../pluginactivation.php:1616
+msgid "Hide Details"
+msgstr ""
+
+#: ../pluginactivation.php:1608
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../pluginactivation.php:1609
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../pluginactivation.php:1613
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../pluginactivation.php:1614
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../pluginactivation.php:1615
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../pluginactivation.php:1616
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../pluginactivation.php:1617
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../pluginactivation.php:1618
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../search.php:4
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:162
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:166
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../short-comments-blog.php:7 ../short-comments.php:7
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../short-comments-blog.php:11 ../short-comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../short-comments-blog.php:32 ../short-comments.php:32
+#, php-format
+msgid "<span>%d</span> Comments"
+msgstr ""
+
+#: ../short-comments-blog.php:32 ../short-comments.php:32
+msgid "<span>One</span> Comment"
+msgstr ""
+
+#: ../short-comments-blog.php:61 ../short-comments.php:61
+#, php-format
+msgid "<span>%d</span> Trackbacks"
+msgstr ""
+
+#: ../short-comments-blog.php:61 ../short-comments.php:61
+msgid "<span>One</span> Trackback"
+msgstr ""
+
+#: ../short-comments-blog.php:77 ../short-comments.php:77
+msgid "Leave a comment"
+msgstr ""
+
+#: ../short-comments-blog.php:77 ../short-comments.php:77
+#, php-format
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: ../short-comments-blog.php:82 ../short-comments.php:82
+#, php-format
+msgid ""
+"You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../short-comments-blog.php:96 ../short-comments.php:96
+msgid "Your email is <em>never</em> published nor shared."
+msgstr ""
+
+#: ../short-comments-blog.php:96 ../short-comments.php:96
+msgid "Required fields are marked <span class=\"required\">*</span>"
+msgstr ""
+
+#: ../short-comments-blog.php:99 ../short-comments.php:99
+#: ../funding/admin/custom-columns.php:48
+msgid "Name"
+msgstr ""
+
+#: ../short-comments-blog.php:99 ../short-comments-blog.php:104
+#: ../short-comments.php:99 ../short-comments.php:104
+msgid "<span class=\"required\">*</span>"
+msgstr ""
+
+#: ../short-comments-blog.php:104 ../short-comments.php:104
+#: ../funding/admin/custom-columns.php:52
+msgid "Email"
+msgstr ""
+
+#: ../short-comments-blog.php:109 ../short-comments.php:109
+#: ../tmp-projects.php:143 ../user.php:83
+msgid "Website"
+msgstr ""
+
+#: ../short-comments-blog.php:116 ../short-comments.php:118
+#: ../funding/tpl/f-fund-project.php:178
+msgid "Comment"
+msgstr ""
+
+#: ../short-comments-blog.php:123 ../short-comments.php:125
+msgid "Post"
+msgstr ""
+
+#: ../tag.php:11
+msgid "Tag: "
+msgstr ""
+
+#: ../tag.php:45 ../tmp-blog.php:56
+#: ../pagebuilder/blocks/news-blog-block.php:1
+msgid "By "
+msgstr ""
+
+#: ../tmp-contact.php:20
+msgid "Please enter your name."
+msgstr ""
+
+#: ../tmp-contact.php:27
+msgid "Please enter your email address."
+msgstr ""
+
+#: ../tmp-contact.php:30
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: ../tmp-contact.php:37
+msgid "Please enter a message."
+msgstr ""
+
+#: ../tmp-contact.php:53
+msgid "[PHP Snippets] From "
+msgstr ""
+
+#: ../tmp-contact.php:65
+msgid "Contact form"
+msgstr ""
+
+#: ../tmp-contact.php:69
+msgid "Thanks, your email was sent successfully"
+msgstr ""
+
+#: ../tmp-contact.php:74
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: ../tmp-contact.php:112
+msgid "Send email"
+msgstr ""
+
+#: ../tmp-contact.php:133
+msgid "Social Network"
+msgstr ""
+
+#: ../tmp-projects.php:19
+msgid "To change your user image, please use the same email as your Gravatar"
+msgstr ""
+
+#: ../tmp-projects.php:22
+msgid "My profile"
+msgstr ""
+
+#: ../tmp-projects.php:23
+msgid "Edit profile"
+msgstr ""
+
+#: ../tmp-projects.php:24
+msgid "Paypal details"
+msgstr ""
+
+#: ../tmp-projects.php:82 ../user.php:24
+msgid "The passwords you entered do not match.  Your password was not updated."
+msgstr ""
+
+#: ../tmp-projects.php:90 ../user.php:32
+msgid "The Email you entered is not valid.  please try again."
+msgstr ""
+
+#: ../tmp-projects.php:92 ../user.php:34
+msgid "This email is already used by another user.  try a different one."
+msgstr ""
+
+#: ../tmp-projects.php:122 ../user.php:65
+msgid "You must be logged in to edit your profile."
+msgstr ""
+
+#: ../tmp-projects.php:131 ../user.php:71
+msgid "First Name"
+msgstr ""
+
+#: ../tmp-projects.php:135 ../user.php:75
+msgid "Last Name"
+msgstr ""
+
+#: ../tmp-projects.php:139 ../user.php:79
+msgid "E-mail *"
+msgstr ""
+
+#: ../tmp-projects.php:147 ../user.php:87
+msgid "Password *"
+msgstr ""
+
+#: ../tmp-projects.php:151 ../user.php:91
+msgid "Repeat Password *"
+msgstr ""
+
+#: ../tmp-projects.php:155 ../user.php:95
+msgid "Biographical Information"
+msgstr ""
+
+#: ../tmp-projects.php:165 ../themeOptions/admin/country/usercountry.php:266
+msgid "- Select -"
+msgstr ""
+
+#: ../tmp-projects.php:175 ../user.php:105
+msgid "Update"
+msgstr ""
+
+#: ../tmp-projects.php:186 ../user.php:116
+msgid "Sorry, no page matched your criteria."
+msgstr ""
+
+#: ../tmp-projects.php:275
+msgid "Edit project"
+msgstr ""
+
+#: ../tmp-projects.php:276
+msgid "Project status: "
+msgstr ""
+
+#: ../wp-login.php:78
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../wp-login.php:79
+msgid "Powered by WordPress"
+msgstr ""
+
+#: ../wp-login.php:143
+#, php-format
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: ../wp-login.php:189
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: ../wp-login.php:193
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: ../wp-login.php:205
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: ../wp-login.php:219
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: ../wp-login.php:231
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: ../wp-login.php:233
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../wp-login.php:234
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: ../wp-login.php:235
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: ../wp-login.php:245
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: ../wp-login.php:251
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: ../wp-login.php:251
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: ../wp-login.php:271 ../wp-login.php:274 ../wp-login.php:279
+msgid "Invalid key"
+msgstr ""
+
+#: ../wp-login.php:313
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: ../wp-login.php:315
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: ../wp-login.php:318
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: ../wp-login.php:323
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: ../wp-login.php:325
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: ../wp-login.php:328
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: ../wp-login.php:341
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: ../wp-login.php:428
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: ../wp-login.php:432
+msgid "Lost Password"
+msgstr ""
+
+#: ../wp-login.php:432
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: ../wp-login.php:440
+msgid "Username or E-mail:"
+msgstr ""
+
+#: ../wp-login.php:449 ../wp-login.php:477 ../wp-login.php:508
+#: ../wp-login.php:564
+msgid "Log in"
+msgstr ""
+
+#: ../wp-login.php:471
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../wp-login.php:477
+msgid "Password Reset"
+msgstr ""
+
+#: ../wp-login.php:477
+msgid "Your password has been reset."
+msgstr ""
+
+#: ../wp-login.php:485
+msgid "Reset Password"
+msgstr ""
+
+#: ../wp-login.php:485
+msgid "Enter your new password below."
+msgstr ""
+
+#: ../wp-login.php:492
+msgid "New password"
+msgstr ""
+
+#: ../wp-login.php:496
+msgid "Confirm new password"
+msgstr ""
+
+#: ../wp-login.php:500
+msgid "Strength indicator"
+msgstr ""
+
+#: ../wp-login.php:501
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: ../wp-login.php:544
+msgid "Registration Form"
+msgstr ""
+
+#: ../wp-login.php:549 ../wp-login.php:682
+msgid "Username"
+msgstr ""
+
+#: ../wp-login.php:553
+msgid "E-mail"
+msgstr ""
+
+#: ../wp-login.php:614
+msgid "You have logged in successfully."
+msgstr ""
+
+#: ../wp-login.php:651
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+
+#: ../wp-login.php:655
+msgid "You are now logged out."
+msgstr ""
+
+#: ../wp-login.php:657
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ../wp-login.php:659
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: ../wp-login.php:661
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: ../wp-login.php:665
+msgid "Your session has expired. Please log-in again."
+msgstr ""
+
+#: ../wp-login.php:667
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to experience the awesomeness."
+msgstr ""
+
+#: ../wp-login.php:686
+msgid "Password"
+msgstr ""
+
+#: ../funding/admin.php:19 ../funding/admin/page-settings.php:6
+#: ../funding/admin/page-settings.php:79
+msgid "Funding Settings"
+msgstr ""
+
+#: ../funding/admin.php:168
+msgid "Rewards"
+msgstr ""
+
+#: ../funding/admin.php:175
+msgid "Project Settings"
+msgstr ""
+
+#: ../funding/admin.php:183
+msgid "Funders"
+msgstr ""
+
+#: ../funding/admin.php:221
+msgid "Unlimited"
+msgstr ""
+
+#: ../funding/admin.php:283
+msgid "Settings saved."
+msgstr ""
+
+#: ../funding/funding.php:74 ../funding/admin/custom-columns.php:30
+#: ../funding/admin/custom-columns.php:51
+msgid "Project"
+msgstr ""
+
+#: ../funding/funding.php:75
+msgid "Create Project"
+msgstr ""
+
+#: ../funding/funding.php:76 ../funding/funding.php:78
+msgid "Edit Project"
+msgstr ""
+
+#: ../funding/funding.php:77
+msgid "Add New Project"
+msgstr ""
+
+#: ../funding/funding.php:79
+msgid "New Project"
+msgstr ""
+
+#: ../funding/funding.php:80
+msgid "View Project"
+msgstr ""
+
+#: ../funding/funding.php:81
+msgid "Search Projects"
+msgstr ""
+
+#: ../funding/funding.php:82
+msgid "No Projects Found"
+msgstr ""
+
+#: ../funding/funding.php:84
+msgid "A fundable project."
+msgstr ""
+
+#: ../funding/funding.php:103 ../funding/admin/custom-columns.php:50
+msgid "Reward"
+msgstr ""
+
+#: ../funding/funding.php:104 ../funding/funding.php:110
+msgid "A reward for funding a project."
+msgstr ""
+
+#: ../funding/funding.php:109 ../funding/admin/custom-columns.php:152
+msgid "Funder"
+msgstr ""
+
+#: ../funding/funding.php:176
+msgid "Please insert your name."
+msgstr ""
+
+#: ../funding/funding.php:179
+msgid "Please insert your e-mail."
+msgstr ""
+
+#: ../funding/funding.php:182 ../funding/funding.php:188
+msgid "Please choose a valid reward."
+msgstr ""
+
+#: ../funding/funding.php:185
+msgid "Please choose an amount."
+msgstr ""
+
+#: ../funding/funding.php:191
+msgid "You need to fund more for this reward."
+msgstr ""
+
+#: ../funding/funding.php:195
+msgid "The reward you chose is no longer available."
+msgstr ""
+
+#: ../funding/funding.php:318
+#, php-format
+msgid "New Funder For %s"
+msgstr ""
+
+#: ../funding/funding.php:345
+#, php-format
+msgid "Thanks For Funding %s"
+msgstr ""
+
+#: ../funding/paypal.php:66
+#, php-format
+msgid "Funding '%s' from %s for the reward '%s' if we reach our target."
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:29
+msgid "Reward Title"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:31
+msgid "Min Contribution"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:32
+msgid "Available"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:33
+msgid "Author"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:49
+#: ../funding/admin/metabox-settings.php:11
+msgid "Amount"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:73
+msgid "Unknown"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:77
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:142
+msgid "Awaiting Confirmation"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:149
+msgid "Refresh"
+msgstr ""
+
+#: ../funding/admin/custom-columns.php:152
+msgid "status updated."
+msgstr ""
+
+#: ../funding/admin/metabox-funders.php:12 ../funding/tpl/f-project.php:163
+#: ../funding/tpl/f-project.php:166
+#, php-format
+msgid "Email %s"
+msgstr ""
+
+#: ../funding/admin/metabox-funders.php:33
+msgid "Download"
+msgstr ""
+
+#: ../funding/admin/metabox-funders.php:34
+msgid "You can collect funding after you've reached your target"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:6
+#, php-format
+msgid "%s available @ %s%s each"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:16
+msgid "Title"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:20
+msgid "Description"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:24
+msgid "Minimum Amount"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:29
+msgid "Number Available"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:34
+msgid "cancel"
+msgstr ""
+
+#: ../funding/admin/metabox-reward.php:34
+msgid "delete"
+msgstr ""
+
+#: ../funding/admin/metabox-settings.php:3
+msgid "Currency"
+msgstr ""
+
+#: ../funding/admin/metabox-settings.php:13
+msgid "The minimum amount you need."
+msgstr ""
+
+#: ../funding/admin/metabox-settings.php:18
+msgid "Date that funding ends."
+msgstr ""
+
+#: ../funding/admin/modal-donate.php:2
+msgid "Error!"
+msgstr ""
+
+#: ../funding/admin/modal-donate.php:7 ../funding/admin/modal-donate.php:21
+msgid "Ok"
+msgstr ""
+
+#: ../funding/admin/modal-donate.php:16
+msgid "Congratulations!"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:9 ../funding/admin/page-settings.php:82
+msgid "Fundit Settings"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:13 ../funding/admin/page-settings.php:86
+msgid "PayPal Email Address"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:17 ../funding/admin/page-settings.php:93
+msgid "The PayPal email address you want to be paid into."
+msgstr ""
+
+#: ../funding/admin/page-settings.php:29
+msgid "Mode"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:32
+msgid "Sandbox"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:33
+msgid "Production"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:39
+msgid "PayPal Application ID"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:46
+msgid "PayPal API Username"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:53
+msgid "PayPal API Password"
+msgstr ""
+
+#: ../funding/admin/page-settings.php:60
+msgid "PayPal API Signature"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:14
+msgid "Thank you for helping out!"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:28
+msgid "How much would you like to contribute?"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:37
+msgid "Choose Your Reward"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:58 ../funding/tpl/f-fund-project.php:60
+#, php-format
+msgid "Pledge %s%s or more"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:72
+msgid "Who Are You?"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:74
+msgid "Your Name"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:77
+msgid "Your Email"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:84
+msgid "You are helping fund:"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:167
+msgid "Important"
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:179
+msgid ""
+"If you selected a reward that involve received an item, please write the "
+"address in the box bellow. You can also use it if you want to tell something "
+"to the creator of the project."
+msgstr ""
+
+#: ../funding/tpl/f-fund-project.php:191
+msgid "Commit To Funding"
+msgstr ""
+
+#: ../funding/tpl/f-project.php:23
+msgid "Thanks for committing to fund our project. We appreciate your support."
+msgstr ""
+
+#: ../funding/tpl/f-project.php:24
+#, php-format
+msgid "We'll contact you when we reach our target of %s%s."
+msgstr ""
+
+#: ../funding/tpl/f-project.php:36
+msgid "Yay! This project has been successfully funded!"
+msgstr ""
+
+#: ../funding/tpl/f-project.php:41
+msgid "Unfortunately this project hasn't been funded on time!"
+msgstr ""
+
+#: ../funding/tpl/f-project.php:124
+msgid "Last update: "
+msgstr ""
+
+#: ../funding/tpl/side.php:4
+msgid "raised of"
+msgstr ""
+
+#: ../funding/tpl/side.php:15
+msgid "This project will only be funded if at least "
+msgstr ""
+
+#: ../funding/tpl/side.php:15
+msgid "is raised by"
+msgstr ""
+
+#: ../funding/tpl/side.php:18
+msgid "Fund This Project"
+msgstr ""
+
+#: ../funding/tpl/side.php:21
+#, php-format
+msgid "%s minimum"
+msgstr ""
+
+#: ../funding/tpl/side.php:31
+msgid "Project sponsor"
+msgstr ""
+
+#: ../funding/tpl/side.php:55
+#, php-format
+msgid "%d of %d available"
+msgstr ""
+
+#: ../metaboxes/init.php:612
+msgid "Please Try Again"
+msgstr ""
+
+#: ../metaboxes/init.php:629
+msgid "Remove Embed"
+msgstr ""
+
+#: ../metaboxes/init.php:635
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:10
+msgid "Alerts"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:22
+msgid "note"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:29
+msgid "Standard"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:30
+msgid "Info"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:31
+msgid "Notification"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:32
+msgid "Warning"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:33
+msgid "Tips"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:40
+#: ../pagebuilder/blocks/latest-categories-block.php:36
+#: ../pagebuilder/blocks/projects-block.php:42
+#: ../pagebuilder/blocks/shortcode-block.php:22
+#: ../pagebuilder/blocks/tabs-block.php:1
+#: ../pagebuilder/blocks/textcolumn-block.php:1
+#: ../pagebuilder/blocks/widgets-block.php:1
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Title (optional)"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:46
+msgid "Alert Text (required)"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:52
+msgid "Alert Type"
+msgstr ""
+
+#: ../pagebuilder/blocks/alert-block.php:58
+msgid "Additional inline css styling (optional)"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:12
+msgid "Clear"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:23
+msgid "none"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:30
+msgid "None"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:31
+msgid "Single"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:32
+msgid "Double"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:33
+msgid "Use Image"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:43
+msgid ""
+"Use this block to clear the floats between two or more separate blocks "
+"vertically."
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:47
+msgid "Pick a horizontal line"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:53
+msgid "Height (optional)"
+msgstr ""
+
+#: ../pagebuilder/blocks/clear-block.php:59
+msgid "Pick a line color"
+msgstr ""
+
+#: ../pagebuilder/blocks/column-block.php:9
+msgid "Column"
+msgstr ""
+
+#: ../pagebuilder/blocks/column-block.php:20
+#: ../pagebuilder/blocks/column-block.php:41
+msgid "Drag block items into this column box"
+msgstr ""
+
+#: ../pagebuilder/blocks/column-block.php:79
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Delete"
+msgstr ""
+
+#: ../pagebuilder/blocks/highlight-block.php:1
+msgid "Highlight text"
+msgstr ""
+
+#: ../pagebuilder/blocks/highlight-block.php:1
+msgid "Highlight button text"
+msgstr ""
+
+#: ../pagebuilder/blocks/highlight-block.php:1
+msgid "Highlight button link"
+msgstr ""
+
+#: ../pagebuilder/blocks/highlight-block.php:1
+#: ../pagebuilder/blocks/textcolumn-block.php:1
+msgid "Remove bottom spacing &nbsp;&nbsp;"
+msgstr ""
+
+#: ../pagebuilder/blocks/latest-categories-block.php:9
+msgid "Project highlight"
+msgstr ""
+
+#: ../pagebuilder/blocks/latest-categories-block.php:20
+msgid "Latest projects"
+msgstr ""
+
+#: ../pagebuilder/blocks/latest-categories-block.php:22
+msgid "Latest successful projects"
+msgstr ""
+
+#: ../pagebuilder/blocks/latest-categories-block.php:23
+msgid "First ending projects"
+msgstr ""
+
+#: ../pagebuilder/blocks/latest-categories-block.php:30
+#: ../pagebuilder/blocks/projects-block.php:36
+msgid ""
+"Exclude categories (select IDs of categories that you want to exclude, comma "
+"separated.)"
+msgstr ""
+
+#: ../pagebuilder/blocks/latest-categories-block.php:42
+#: ../pagebuilder/blocks/projects-block.php:48
+msgid "Pick display option"
+msgstr ""
+
+#: ../pagebuilder/blocks/news-blog-block.php:1
+msgid ""
+"Enter posts categories you want to exclude(comma separated) - Leave blank to "
+"show all. Ex: 47,32"
+msgstr ""
+
+#: ../pagebuilder/blocks/news-blog-block.php:1
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:25
+msgid "Static projects"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:26
+msgid "Slider projects"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:27
+msgid "Show both"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:54
+msgid "Insert number of slide posts"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:60
+msgid "Insert number of static posts"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:318
+#: ../pagebuilder/blocks/projects-block.php:455
+msgid "prev"
+msgstr ""
+
+#: ../pagebuilder/blocks/projects-block.php:319
+#: ../pagebuilder/blocks/projects-block.php:456
+msgid "next"
+msgstr ""
+
+#: ../pagebuilder/blocks/shortcode-block.php:7
+msgid "Shortcode block"
+msgstr ""
+
+#: ../pagebuilder/blocks/shortcode-block.php:28
+#: ../pagebuilder/blocks/textcolumn-block.php:1
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Content"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Tabs &amp; Toggles"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Add New"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Tabs style"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Tabs position"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Open / Close"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Tab Title"
+msgstr ""
+
+#: ../pagebuilder/blocks/tabs-block.php:1
+msgid "Tab Content"
+msgstr ""
+
+#: ../pagebuilder/blocks/textcolumn-block.php:1
+msgid "Boxed &nbsp;&nbsp;"
+msgstr ""
+
+#: ../pagebuilder/blocks/widgets-block.php:1
+msgid "Widgets"
+msgstr ""
+
+#: ../pagebuilder/blocks/widgets-block.php:1
+msgid "Choose widget area"
+msgstr ""
+
+#: ../pagebuilder/classes/class-page-builder.php:1
+msgid "Page Builder"
+msgstr ""
+
+#: ../pagebuilder/classes/class-page-builder.php:1
+msgid "page_builder"
+msgstr ""
+
+#: ../pagebuilder/classes/class-page-builder.php:1
+msgid "Please select your template first!"
+msgstr ""
+
+#: ../pagebuilder/classes/class-page-builder.php:1
+#, php-format
+msgid "You don't have any template yet. Let's %s create %s one!"
+msgstr ""
+
+#: ../pagebuilder/classes/class-page-builder.php:1
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Enter your text slogan below"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Slider Speed"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Address"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Coordinates (optional) e.g. '3.82497,103.32390'"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Map height, in pixels."
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Number of Columns"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Maximum number of items"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Choose sidebar/widget area"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid "Drag block items into this box"
+msgstr ""
+
+#: ../pagebuilder/functions/pb_blocks.php:1
+msgid ""
+"This block has no editable attributes. You can use it to clear the floats "
+"between two or more separate blocks vertically."
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:17
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:50
+#: ../pagebuilder/view/view-settings-page.php:66
+msgid "The "
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:50
+msgid " page template has been successfully created"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:57
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:66
+msgid " page template has been updated"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:74
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:90
+msgid "Available Blocks"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:90
+msgid "Deleting"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:151
+msgid "Template Name"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:158
+msgid "Create Template"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:158
+#: ../pagebuilder/view/view-settings-page.php:209
+msgid "Save Template"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:171
+msgid "Delete Template"
+msgstr ""
+
+#: ../pagebuilder/view/view-settings-page.php:193
+msgid ""
+"To create a custom page template, give it a name above and click Create "
+"Template. Then choose blocks like text, widgets or tabs &amp; toggles from "
+"the left column to add to this template.\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tYou can drag and drop the blocks to put them in the order "
+"you want. Click on the small arrow at the corner of each block to reveal "
+"additional configuration options. You can also resize each block by clicking "
+"on either side of the block (Note that some blocks are not resizable)\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tWhen you have finished building your custom page template, "
+"make sure you click the Save Template button."
+msgstr ""
+
+#: ../themeOptions/options.php:37
+msgid "General  Settings"
+msgstr ""
+
+#: ../themeOptions/options.php:39
+msgid "Upload Your Logo"
+msgstr ""
+
+#: ../themeOptions/options.php:40
+msgid ""
+"Upload your logo. I recommend keeping it within reasonable size. Max 150px "
+"and minimum height of 90px but not more than 120px."
+msgstr ""
+
+#: ../themeOptions/options.php:44
+msgid "Upload Your Favicon"
+msgstr ""
+
+#: ../themeOptions/options.php:45
+msgid "Upload your Favicon. I recommend keeping it within reasonable size. "
+msgstr ""
+
+#: ../themeOptions/options.php:49
+msgid "Blog settings"
+msgstr ""
+
+#: ../themeOptions/options.php:51
+msgid "Blog category"
+msgstr ""
+
+#: ../themeOptions/options.php:52
+msgid "Insert ID of blog categories, comma separated."
+msgstr ""
+
+#: ../themeOptions/options.php:56
+msgid "Blog number of posts"
+msgstr ""
+
+#: ../themeOptions/options.php:57
+msgid ""
+"Insert number of posts that you want to show on blog, category and author "
+"pages."
+msgstr ""
+
+#: ../themeOptions/options.php:61
+msgid "All projects page settings"
+msgstr ""
+
+#: ../themeOptions/options.php:63
+msgid "Number of projects per page"
+msgstr ""
+
+#: ../themeOptions/options.php:64
+msgid "Insert number of projects that you want to show on all projects page."
+msgstr ""
+
+#: ../themeOptions/options.php:68
+msgid "Social Log in"
+msgstr ""
+
+#: ../themeOptions/options.php:70
+msgid "Twitter Consumer key"
+msgstr ""
+
+#: ../themeOptions/options.php:71
+msgid "Insert Twitter Consumer key for enable login via Twitter."
+msgstr ""
+
+#: ../themeOptions/options.php:75
+msgid "Twitter Consumer secret"
+msgstr ""
+
+#: ../themeOptions/options.php:76
+msgid "Insert Twitter Consumer secret for enable login via Twitter."
+msgstr ""
+
+#: ../themeOptions/options.php:80
+msgid "Facebook api key"
+msgstr ""
+
+#: ../themeOptions/options.php:81
+msgid "Insert Facebook api key for enable login via Facebook."
+msgstr ""
+
+#: ../themeOptions/options.php:86
+msgid "Colours"
+msgstr ""
+
+#: ../themeOptions/options.php:88
+msgid "Primary Color"
+msgstr ""
+
+#: ../themeOptions/options.php:89
+msgid "The primary color for the site."
+msgstr ""
+
+#: ../themeOptions/options.php:93
+msgid "Button colors"
+msgstr ""
+
+#: ../themeOptions/options.php:97
+msgid "Button color"
+msgstr ""
+
+#: ../themeOptions/options.php:98
+msgid "Button color <a class='button-medium'  >Example</a>."
+msgstr ""
+
+#: ../themeOptions/options.php:103 ../themeOptions/options.php:104
+msgid "Button hover color"
+msgstr ""
+
+#: ../themeOptions/options.php:110
+msgid "Button border color"
+msgstr ""
+
+#: ../themeOptions/options.php:111
+msgid "Color for button border <a class='button-medium'  >Example</a>."
+msgstr ""
+
+#: ../themeOptions/options.php:116
+msgid "Footer"
+msgstr ""
+
+#: ../themeOptions/options.php:117
+msgid "Copyright"
+msgstr ""
+
+#: ../themeOptions/options.php:118
+msgid "Enter your copyright text."
+msgstr ""
+
+#: ../themeOptions/options.php:120
+msgid "Made by Skywarrior Themes."
+msgstr ""
+
+#: ../themeOptions/options.php:122
+msgid "Copyright year"
+msgstr ""
+
+#: ../themeOptions/options.php:123
+msgid "Enter your copyright year."
+msgstr ""
+
+#: ../themeOptions/options.php:127
+msgid "Privacy link"
+msgstr ""
+
+#: ../themeOptions/options.php:128
+msgid "Enter your privacy link. Please include http://"
+msgstr ""
+
+#: ../themeOptions/options.php:132
+msgid "Terms link"
+msgstr ""
+
+#: ../themeOptions/options.php:133
+msgid "Enter your terms link. Please include http://"
+msgstr ""
+
+#: ../themeOptions/options.php:138
+msgid "Contact"
+msgstr ""
+
+#: ../themeOptions/options.php:140
+msgid "Enter admin email address "
+msgstr ""
+
+#: ../themeOptions/options.php:141
+msgid " Enter your email address."
+msgstr ""
+
+#: ../themeOptions/options.php:145
+msgid "Enter sidebar title "
+msgstr ""
+
+#: ../themeOptions/options.php:146
+msgid " Enter title for sidebar for contact page."
+msgstr ""
+
+#: ../themeOptions/options.php:150
+msgid "Enter sidebar content "
+msgstr ""
+
+#: ../themeOptions/options.php:151
+msgid " Enter content for sidebar for contact page."
+msgstr ""
+
+#: ../themeOptions/options.php:157
+msgid "Social Media"
+msgstr ""
+
+#: ../themeOptions/options.php:166
+msgid "Enable Twitter"
+msgstr ""
+
+#: ../themeOptions/options.php:167
+msgid "Show or hide the Twitter icon that shows on the header section."
+msgstr ""
+
+#: ../themeOptions/options.php:171
+msgid "Twitter Link"
+msgstr ""
+
+#: ../themeOptions/options.php:172
+msgid "Paste your twitter link here."
+msgstr ""
+
+#: ../themeOptions/options.php:176
+msgid "Enable Facebook"
+msgstr ""
+
+#: ../themeOptions/options.php:177
+msgid "Show or hide the Facebook icon that shows on the header section."
+msgstr ""
+
+#: ../themeOptions/options.php:181
+msgid "Facebook Link"
+msgstr ""
+
+#: ../themeOptions/options.php:182
+msgid "Paste your facebook link here."
+msgstr ""
+
+#: ../themeOptions/options.php:186
+msgid "Enable Google+"
+msgstr ""
+
+#: ../themeOptions/options.php:187
+msgid "Show or hide the Google+ icon that shows on the header section."
+msgstr ""
+
+#: ../themeOptions/options.php:191
+msgid "Google+ Link"
+msgstr ""
+
+#: ../themeOptions/options.php:192
+msgid "Paste your google+ link here."
+msgstr ""
+
+#: ../themeOptions/options.php:196
+msgid "Enable skype"
+msgstr ""
+
+#: ../themeOptions/options.php:197
+msgid "Show or hide the skype icon that shows on the header section."
+msgstr ""
+
+#: ../themeOptions/options.php:201
+msgid "Skype name"
+msgstr ""
+
+#: ../themeOptions/options.php:202
+msgid "Paste your skype name here."
+msgstr ""
+
+#: ../themeOptions/options.php:206
+msgid "Enable RSS"
+msgstr ""
+
+#: ../themeOptions/options.php:207
+msgid "Show or hide the RSS icon that shows on the header section."
+msgstr ""
+
+#: ../themeOptions/options.php:211
+msgid "RSS Link"
+msgstr ""
+
+#: ../themeOptions/options.php:212
+msgid "Paste your RSS link here."
+msgstr ""
+
+#: ../themeOptions/options.php:217
+msgid "Funding"
+msgstr ""
+
+#: ../themeOptions/options.php:219
+msgid "Add Text"
+msgstr ""
+
+#: ../themeOptions/options.php:220
+msgid "Enter the important text on the commit to funding page."
+msgstr ""
+
+#: ../themeOptions/options.php:223
+msgid "Enable collect fundings"
+msgstr ""
+
+#: ../themeOptions/options.php:224
+msgid "Enable users to collect fundings before project ends."
+msgstr ""
+
+#: ../themeOptions/options.php:228
+msgid "Admin commission"
+msgstr ""
+
+#: ../themeOptions/options.php:229
+#, php-format
+msgid ""
+"Enter admin commission(Amount is in percents. Enter amount without % sign ) "
+"for project funding "
+msgstr ""
+
+#: ../themeOptions/rating.php:39
+msgid "Over All Score"
+msgstr ""
+
+#: ../themeOptions/rating.php:58
+msgid "Critera 1"
+msgstr ""
+
+#: ../themeOptions/rating.php:62
+msgid "Critera 1 Score"
+msgstr ""
+
+#: ../themeOptions/rating.php:81
+msgid "Critera 2"
+msgstr ""
+
+#: ../themeOptions/rating.php:85
+msgid "Critera 2 Score"
+msgstr ""
+
+#: ../themeOptions/rating.php:105
+msgid "Critera 3"
+msgstr ""
+
+#: ../themeOptions/rating.php:109
+msgid "Critera 3 Score"
+msgstr ""
+
+#: ../themeOptions/rating.php:129
+msgid "Critera 4"
+msgstr ""
+
+#: ../themeOptions/rating.php:133
+msgid "Critera 4 Score"
+msgstr ""
+
+#: ../themeOptions/rating.php:153
+msgid "Critera 5"
+msgstr ""
+
+#: ../themeOptions/rating.php:157
+msgid "Critera 5 Score"
+msgstr ""
+
+#: ../themeOptions/admin/options-framework.php:1
+msgid "Hey there admin!"
+msgstr ""
+
+#: ../themeOptions/admin/options-framework.php:1
+msgid "Need help?"
+msgstr ""
+
+#: ../themeOptions/admin/options-framework.php:1
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../themeOptions/admin/options-framework.php:1
+msgid "Default options restored."
+msgstr ""
+
+#: ../themeOptions/admin/options-medialibrary-uploader.php:1
+msgid "Gallery"
+msgstr ""
+
+#: ../themeOptions/admin/options-medialibrary-uploader.php:1
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../themeOptions/admin/country/usercountry.php:302
+msgid "Select country"
+msgstr ""
