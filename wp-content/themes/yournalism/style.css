@@ -12,107 +12,245 @@ License URI:        http://opensource.org/licenses/MIT
 
 
 @font-face {
-    font-family: 'light';
-    src: url('./fonts/Nexa_Free_Light-webfont.woff') format('woff');
+    font-family: 'avenir';
+    src: url('./fonts/AvenirNext-Medium.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'bold';
-    src: url('./fonts/Nexa_Free_Bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'gothic';
-    src: url('./fonts/league_gothic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'infinity';
-    src: url('./fonts/infinity-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'avenir';
+    src: url('./fonts/AvenirNext-DemiBold.otf') format('otf');
+    font-weight: bold;
     font-style: normal;
 }
 
 body {
-	font-family: 'light';
+	font-family: 'avenir';
+	font-weight: normal
 }
 
 .container {
-	max-width: 960px;
+	width: 1000px;
+	position: relative;
 	margin: 0px auto;
 }
+
+.button {
+	background: #FDD313;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0px;
+}
+.button i {
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 20px;
+}
+p {
+	font-size: 14px;
+}
+
+.clearfix {
+	clear: both;
+	height: 0px;
+}
 .topbar{
-	position:absolute;
-	top:0px;
-	left: 0;
-	right: 0;
-	margin: 0 auto -32px;	
-	background-color:#ffd500;
-	height:32px;
+	position: relative;
+	font-size:18px;
+	font-weight: bold;
+	margin: 0 auto -40px;	
+	background-color:#FDD313;
+	height:40px;
+	line-height: 40px;
 	z-index: 10;
+}
+.topbar img.logo {
+	padding: 5px 0px 0px 20px;
+	width: 150px;
+}
+.topbar .login {
+	padding-right: 20px;
 }
 .topbar ul{
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	font-size:12px;
-	position:absolute;
-	top:0px;
-	right:10px;
-	padding-top:10px;
+	margin: 0px;
 }
 
 .topbar ul li{
-    display: inline;
+    display: inline-block;
+	height: 40px;
+	margin: 0px 15px;
 }
-.topbar ul li{
-    transition: 1s;
+.topbar ul li a {
+    transition: 0.4s;
 }
-.topbar ul li:hover{
-    font-family:'bold';
-    
+.topbar ul li a:hover{
+	color: #FFFFFF;    
+}
+.topbar a {
+	text-decoration:none;
+	color: #000000;
 }
 
 
 .header-image {
-	background-position: center;
+	background-position: center bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 400px;
+	height: 570px;
 	margin: 0px 0px -50px;
 	width: 100%;
+	min-width: 1000px;
 }
 
 .header {
 	background: #FDD313;
-	padding: 20px 30px;
+	padding: 10px 20px;
 	position: relative;
 }
 
 .header .project-type {
 	color: #FFFFFF;
-	font-size: 24px;
-	font-family: bold;
+	font-size: 38px;
+	font-weight: bold;
 }
 .header .project-title {
-	font-size: 24px;
-	font-family: bold;
+	font-size: 38px;
+	font-weight: bold;
+	padding-right: 200px;
 }
 .header .author {
 	position: absolute;
+	background: #FDD313;
 	right: 20px;
-	height: 80px;
+	height: 160px;
 	bottom: -30px;
-	width: 200px;
+	width: 190px;
 }
 .header .author .author-name {
 	position: absolute;
-	left: 0px;
+	left: 10px;
 	bottom: 0px;
 	height: 30px;
+	line-height: 30px;
+	width:  100%;
+	font-weight: bold;
+}
+.header .author i {
+	position: absolute;
+	color: #FFFFFF;
+	right: 15px;
+	bottom: 5px;
+}
+.header .author .author-image {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 130px;
+}
+
+.project .content {
+	padding: 10px 0px 20px 20px;
+	width: 690px;
+}
+
+.project .social {
+	border-top: solid 2px #FDD313;
+}
+.project .social .icon {
+	background: #FDD313;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 6px;
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 5px 2px;
+	text-align: center;
+}
+
+.project-info {
+	float: right;
+	width: 190px;
+	margin: 30px 20px 0px 0px;
+}
+.project-info .info-type {
+	margin: 40px 0px;
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.project-info .info-type .number {
+	font-size: 38px;
+}
+.project-info .button {
+	margin-top: 30px;
+	padding: 10px 0px;
+	font-size: 38px;
+}
+
+.progressbar {
+	background: #F8F6ED;
+	height: 30px;
+	position: relative;
+}
+.progressbar .completed {
+	background: #FDD313;
+	position: absolute;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.section-related {
+	margin-top: 20px;
+}
+.related {
+	float: left;
+	display: inline-block;
+	height: 220px;
+	width: 160px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 10px 20px 0px
+}
+.related .related-image {
+	width: 160px;
+	height: 120px;
+	margin-bottom: 5px;
+	background: #EEEEEE;
+}
+.related a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.footer {
+	background: #F8F6ED;
+	height: 80px;
+	position: relative;
+}
+.footer-content {
+	background: #F8F6ED;
+	top: -40px;
+	min-height: 45px;
+	position: absolute;
+	padding: 10px 20px;
+	width: 100%;
+	font-weight: bold;
 }
