@@ -4,12 +4,12 @@ body {
 .top_bar{
 	position:absolute;
 	top:0px;
-	width:75%;
 	left: 0;
-  	right: 0;
-  	margin: 0 auto;	
-  	background-color:#ffd500;
-  	height:29px;
+	right: 0;
+	margin: 0 auto -32px;	
+	background-color:#ffd500;
+	height:32px;
+  z-index: 10;
 }
 .top_bar ul{
     list-style-type: none;

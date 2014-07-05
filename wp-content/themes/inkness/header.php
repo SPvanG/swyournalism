@@ -21,11 +21,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="parallax-bg"></div>
+<!-- <div id="parallax-bg"></div> -->
 <div id="page" class="hfeed site">
 	<?php do_action( 'inkness_before' ); ?>
 	
-		<div class="top_bar">
+		<div class="top_bar container">
 			<img src="<?php echo get_bloginfo('template_url').'/images/yournalism-img/header.png'; ?>" height="28px"/>
 			<ul>
 				<li>
