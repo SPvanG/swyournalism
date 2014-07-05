@@ -90,8 +90,6 @@
 
 	</div>
 
-
-
 <?php endwhile; ?>
 
 <?php get_footer(); ?>
