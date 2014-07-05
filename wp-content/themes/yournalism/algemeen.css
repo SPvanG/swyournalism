@@ -1,0 +1,162 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+a img {
+	border: none;
+}
+img {
+	vertical-align: bottom;
+}
+
+messages {
+	display: block;
+	margin-top: 16px;
+}
+.message, .form .message, .text .message {
+	padding: 5px 5px 5px 40px;
+	font-weight: bold;
+	background: no-repeat left center;
+	text-align: left;
+	margin: 10px 0;
+}
+.text .message {
+}
+.message.error {
+	background-image: url(/static/core/images/melding-fout.png);
+	color: #8c070b;
+}
+.message > span {
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 14px;
+}
+.message.error a {
+	text-decoration: underline;
+}
+.message.success {
+	background-image: url(/static/core/images/melding-goed.png);
+}
+.message.notice {
+	background-image: url(/static/core/images/melding-info.png);
+}
+
+.flex-row {
+/* legacy stuff */
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+
+/* new stuff */
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: stretch;
+	-moz-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+.flex-align-start {
+/* legacy stuff */
+	-webkit-box-align: start;
+	-moz-box-align: start;
+/* new stuff */
+	-webkit-align-items: flex-start;
+	-moz-align-items: flex-start;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+.flex-align-end {
+/* legacy stuff */
+	-webkit-box-align: end;
+	-moz-box-align: end;
+/* new stuff */
+	-webkit-align-items: flex-end;
+	-moz-align-items: flex-end;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+.flex-column {
+/* legacy stuff */
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+
+/* new stuff */
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	-moz-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+.flex-row>*, .flex-column>* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.flexboxlegacy .flex-row>* {
+	display: block !important;
+}
+.no-flex {
+	-webkit-flex-shrink: 0;
+	-moz-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
+}
+.flex {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+.flex1-5 {
+	-webkit-box-flex: 1.5;
+	-moz-box-flex: 1.5;
+	-webkit-flex: 1.5;
+	-moz-flex: 1.5;
+	-ms-flex: 1.5 1.5 auto;
+	flex: 1.5 1.5 auto;
+}
+.flex2 {
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+	-webkit-flex: 2;
+	-moz-flex: 2;
+	-ms-flex: 2 2 auto;
+	flex: 2 2 auto;
+}
+.flex3 {
+	-webkit-box-flex: 3;
+	-moz-box-flex: 3;
+	-webkit-flex: 3;
+	-moz-flex: 3;
+	-ms-flex: 3 3 auto;
+	flex: 3 3 auto;
+}
