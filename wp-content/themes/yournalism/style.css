@@ -73,16 +73,25 @@ p {
 	line-height: 40px;
 	z-index: 10;
 }
-.topbar img.logo {
+.topbar .logo {
+	background: #000000;
+	width: 190px;
+}
+.topbar .logo img {
 	padding: 5px 0px 0px 20px;
 	width: 150px;
 }
 .topbar .login {
-	padding-right: 20px;
+	padding: 0px 20px 0px 0px;
+	text-align: right;
+	width: 170px;
+}
+.topbar .icon {
+	font-size: 20px;
 }
 .topbar ul{
 	list-style-type: none;
-	margin: 0px;
+	margin: 0px auto;
 }
 
 .topbar ul li{
@@ -99,6 +108,13 @@ p {
 .topbar a {
 	text-decoration:none;
 	color: #000000;
+}
+.topbar .subtitle {
+	position: absolute;
+	left: 20px;
+	bottom: -40px;
+	font-size: 14px;
+	text-shadow: 1px 1px rgba(255, 255, 255, .4);
 }
 
 
@@ -232,7 +248,8 @@ p {
 	width: 160px;
 	height: 120px;
 	margin-bottom: 5px;
-	background: #EEEEEE;
+	background: #EEEEEE no-repeat center center;
+	background-size: cover;
 }
 .related a {
 	color: #000000;
