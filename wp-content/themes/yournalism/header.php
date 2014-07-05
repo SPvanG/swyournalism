@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
 </head>
 <body>
+<?php get_plugins(); ?>
 
 <nav>
 	<div class="topbar container flex-row">
