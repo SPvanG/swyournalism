@@ -10,8 +10,12 @@
 
 	<div class="container project">
 		<div class="header">
-			<h1><?php the_title(); ?></h1>
-			<div class="author"><img src="<?php bloginfo('template_url'); ?>/images/author-huub.png" alt=""></div>
+			<div class="project-type">Proposal</div>
+			<div class="project-title"><?php the_title(); ?></div>
+			<div class="author">
+				<div class="author-image" style="background-image: url(<?php bloginfo('template_url'); ?>/images/author-huub.jpg);"></div>
+				<div class="author-name">Huub Schuijn</div>
+			</div>
 		</div>
 
 		<div class="content">
