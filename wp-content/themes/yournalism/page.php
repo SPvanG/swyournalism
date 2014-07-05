@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_plugins(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
@@ -7,7 +8,6 @@
 		<?php the_post_thumbnail(); ?>
 	</div>
 	<?php endif; ?>
-
 
 	<?php the_title(); ?>
 
