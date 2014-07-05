@@ -13,33 +13,33 @@ License URI:        http://opensource.org/licenses/MIT
 
 @font-face {
     font-family: 'light';
-    src: url('../../fonts/font-yournalism/Nexa_Free_Light-webfont.woff') format('woff');
+    src: url('./fonts/Nexa_Free_Light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bold';
-    src: url('../../fonts/font-yournalism/Nexa_Free_Bold-webfont.woff') format('woff');
+    src: url('./fonts/Nexa_Free_Bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'gothic';
-    src: url('../../fonts/font-yournalism/league_gothic-webfont.woff') format('woff');
+    src: url('./fonts/league_gothic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'infinity';
-    src: url('../../fonts/font-yournalism/infinity-webfont.woff') format('woff');
+    src: url('./fonts/infinity-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-	font-family: 'gothic';
+	font-family: 'light';
 }
 
 .container {
@@ -84,5 +84,35 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 400px;
+	margin: 0px 0px -50px;
 	width: 100%;
+}
+
+.header {
+	background: #FDD313;
+	padding: 20px 30px;
+	position: relative;
+}
+
+.header .project-type {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: bold;
+}
+.header .project-title {
+	font-size: 24px;
+	font-family: bold;
+}
+.header .author {
+	position: absolute;
+	right: 20px;
+	height: 80px;
+	bottom: -30px;
+	width: 200px;
+}
+.header .author .author-name {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
 }

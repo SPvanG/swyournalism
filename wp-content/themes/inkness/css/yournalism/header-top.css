@@ -30,6 +30,5 @@ body {
     transition: 1s;
 }
 .top_bar ul li:hover{
-    font-family:'bold';
-    
+    font-family: 'bold';    
 }
