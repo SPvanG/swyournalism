@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
 </head>
 <body>
-<?php include 'wp-content/plugins/usernoise/usernoise.php';?>
 
 <nav>
 	<div class="topbar container flex-row">
