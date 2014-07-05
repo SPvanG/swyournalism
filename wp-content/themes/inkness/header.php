@@ -44,7 +44,7 @@
 	
 	<div id="header-2">
 		<div class="container">
-		<div class="default-nav-wrapper col-md-8 col-xs-12"> 	
+		<div class="default-nav-wrapper col-md-12 col-xs-12"> 	
 		   <nav id="site-navigation" class="main-navigation" role="navigation">
 	         <div id="nav-container">
 				<h1 class="menu-toggle"></h1>
