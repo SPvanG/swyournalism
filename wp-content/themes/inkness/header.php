@@ -14,16 +14,27 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_bloginfo( 'template_url' ).'/css/yournalism/header-top.css'; ?>">
+<link rel="stylesheet" href="<?php echo get_bloginfo( 'template_url' ).'/css/yournalism/font.css'; ?>">
+
 </head>
 
 <body <?php body_class(); ?>>
 <div id="parallax-bg"></div>
 <div id="page" class="hfeed site">
 	<?php do_action( 'inkness_before' ); ?>
-	<div id="header-top">
-		<header id="masthead" class="site-header row container" role="banner">
+	
+		<div class="top_bar">
+			<img src="<?php echo get_bloginfo('template_url').'/images/yournalism-img/header.png'; ?>" height="28px"/>
+			<ul>
+				<li>
+					yournalism is? 
+				</li>
+				
+			</ul>
+		</div>
+	<!--	<header id="masthead" class="site-header row container" role="banner">
 			<div class="site-branding col-md-6 col-xs-12">
 			<?php if((of_get_option('logo', true) != "") && (of_get_option('logo', true) != 1) ) { ?>
 				<h1 class="site-title logo-container"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -39,10 +50,9 @@
 			
 			<?php get_template_part('social', 'fa'); ?>
 						
-		</header><!-- #masthead -->
-	</div>
+		</header>--><!-- #masthead -->
 	
-	<div id="header-2">
+	<!--<div id="header-2">
 		<div class="container">
 		<div class="default-nav-wrapper col-md-12 col-xs-12"> 	
 		   <nav id="site-navigation" class="main-navigation" role="navigation">
@@ -53,13 +63,13 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	          </div>  
 			</nav><!-- #site-navigation -->
-		  </div>
+		<!--  </div>
 		  
 		<div id="top-search" class="col-md-4 col-xs-12">
 			<?php get_search_form(); ?>
 		</div>
 		</div>
-	</div>
+	</div>-->
 
 	<?php get_template_part('slider', 'nivo'); ?>
 	
