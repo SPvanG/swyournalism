@@ -4,6 +4,8 @@
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/algemeen.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
 

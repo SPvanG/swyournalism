@@ -54,7 +54,7 @@
 				<div class="progressbar">
 					<div class="completed" style="width: calc(<?php echo $meta['completed'][0]; ?>% - 10px);"><?php echo $meta['completed'][0]; ?>%</div>
 				</div>
-				<button class="button">doneer <i class="fa fa-play"></i></button>
+				<button id="donatenow" class="button">doneer <i class="fa fa-play"></i></button>
 			<?php endif; ?>
 			<?php if (in_array('project', $types) ): ?>
 				<div class="board">
