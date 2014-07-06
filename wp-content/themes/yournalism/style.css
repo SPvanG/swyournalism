@@ -345,6 +345,7 @@ p {
 .footer {
 	background: #F8F6ED;
 	height: 80px;
+	margin-top: 50px;
 	position: relative;
 }
 .footer-content {
