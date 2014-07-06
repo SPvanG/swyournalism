@@ -9,7 +9,6 @@
 
 	<div class="container project">
 		<div class="header">
-			<div class="project-type">Pagina</div>
 			<div class="project-title"><?php the_title(); ?></div>
 		</div>
 

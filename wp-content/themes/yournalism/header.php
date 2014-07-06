@@ -20,10 +20,10 @@
 		</div>
 		<div class="flex"></div>
 		<div class="no-flex login">
-			<span class="icon"><i class="fa fa-fw fa-twitter-square"></i></span>
-			<span class="icon"><i class="fa fa-fw fa-facebook-square"></i></span>
-			<span class="icon"><i class="fa fa-fw fa-linkedin-square"></i></span>
-			<span class="icon"><i class="fa fa-fw fa-google-plus-square"></i></span>
+			<a class="icon" href="https://twitter.com/YournalismNL" target="_blank"><i class="fa fa-fw fa-twitter-square"></i></a>
+			<a class="icon" href="https://www.facebook.com/Yournalism" target="_blank"><i class="fa fa-fw fa-facebook-square"></i></a>
+			<a class="icon" href="http://www.linkedin.com/company/yournalism" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i></a>
+			<a class="icon" href="https://plus.google.com/+YournalismNl_waakhond" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i></a>
 		</div>
 		<!-- <div class="subtitle">Jij bepaalt het volgende verhaal.</div> -->
 	</div>
