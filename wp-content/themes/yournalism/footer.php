@@ -6,10 +6,15 @@
 	</div>
 </div>
 
-<script type="text/javascript">
-$('#donatenow').click(function() {
-	$('#overlay').show();
-});
+<script>
+if( $('#donatenow') ) {
+	$('#donatenow').click(function() {
+		$('#overlay').show();
+	});
+	$('#overlay').click(function() {
+		$('#overlay').hide();
+	});
+}
 </script>
 
 <script>

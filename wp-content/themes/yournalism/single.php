@@ -10,18 +10,6 @@
 	$meta = get_post_meta( $post->ID );
 	?>
 
-	<?php if( in_array('proposal', $types) ): ?>
-	<div id="overlay" class="overlay" style="display: none;">
-		<div class="donate">
-			<h1>Doneer &euro;2,50 voor dit voorstel</h1>
-			<p><input type="text" name="email" placeholder="hier jouw e-mailadres"></p>
-			<h2>We sturen je de voorwaarden en betaalinformatie</h2>
-			<button class="button-large" type="submit">Akkoord</button>
-		</div>
-	</div>
-	<?php endif; ?>
-
-
 	<?php if (has_post_thumbnail() ) : ?>
 		<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 		<div class="header-image" style="background-image: url(<?php echo $url; ?>);"></div>
@@ -82,16 +70,34 @@
 
 			<div class="section-related">
 				<h2>Andere voorstellen</h2>
-				<div class="related">
-					<div class="related-image" style="background-image:url(<?php bloginfo('template_url');?>/images/author-name.jpg)"></div>
-					<a href="">titel moet hier nog komen</a>
-				</div>
+				<?php 
+				$projects = get_posts(array( 'exclude' => $post->ID ));
+				if( !empty($projects) ) foreach( $projects as $project ): ?>
+					<?php if( has_post_thumbnail($project->ID) ) $url = wp_get_attachment_url( get_post_thumbnail_id($project->ID) ); else $url = ''; ?>
+					<div class="related">
+						<a href="<?php echo get_bloginfo('url') .'/'. $project->post_name; ?>">
+							<div class="related-image" style="background-image:url(<?php echo $url; ?>)"></div>
+							<?php echo $project->post_title; ?>
+						</a>
+					</div>
+				<?php endforeach; ?>
 				<div class="clearfix"></div>
 			</div>
 
 		</div>
 
 	</div>
+
+	<?php if( in_array('proposal', $types) ): ?>
+	<div id="overlay" class="overlay" style="display: none;">
+		<div class="donate">
+			<h1>Doneer &euro;2,50 voor dit voorstel</h1>
+			<p><input type="text" name="email" placeholder="hier jouw e-mailadres"></p>
+			<h2>We sturen je de voorwaarden en betaalinformatie</h2>
+			<button class="button-large" type="submit">Akkoord <i class="fa fa-play"></i></button>
+		</div>
+	</div>
+	<?php endif; ?>
 
 <?php endwhile; ?>
 

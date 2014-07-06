@@ -25,7 +25,7 @@ License URI:        http://opensource.org/licenses/MIT
     font-style: normal;
 }
 
-body {
+body, input, button, td {
 	font-family: 'avenir';
 	font-weight: normal
 }
@@ -220,7 +220,7 @@ p {
 	font-size: 38px;
 }
 .project-info .button {
-	margin-top: 30px;
+	margin: 30px 0px 50px;
 	padding: 10px 0px;
 	font-size: 38px;
 }
@@ -327,4 +327,40 @@ p {
 	padding: 10px 20px;
 	width: 100%;
 	font-weight: bold;
+}
+
+#overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(80, 80, 80, 0.6);
+	z-index: 100;
+}
+#overlay .donate {
+	background: #FDD313;
+	margin: 80px auto;
+	width: 600px;
+	padding: 10px 30px 30px;
+}
+#overlay .donate input {
+	background: #F8F6ED;
+	width: 100%;
+	border: 0px;
+	line-height: 40px;
+	padding: 0px 10px;
+	height: 40px;
+	font-size: 28px;
+}
+#overlay .donate .button-large {
+	border: 0;
+	background: #F8F6ED;
+	font-size: 38px;
+	font-weight: bold;
+	padding: 5px 20px;
+}
+#overlay .donate .button-large i {
+	color: #FDD313;
+	margin-left: 20px;
 }
