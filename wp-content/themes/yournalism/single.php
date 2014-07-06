@@ -59,6 +59,7 @@
 			<div class="<?php echo implode(' ', $types); ?>"><?php the_content(); ?></div>
 	
 			<div class="social">
+				<a class="timeline" href="<?php bloginfo('url'); ?>/timeline"><i class="fa fa-tasks"></i> Bekijk de historie</a>
 				<?php
 				$url = urlencode(get_bloginfo('url') ."/". $post->post_name);
 				$title = urlencode($post->post_title);

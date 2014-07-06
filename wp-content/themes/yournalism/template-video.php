@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Template with header video
+Template Name: Header video
 */
 get_header();
 ?>
