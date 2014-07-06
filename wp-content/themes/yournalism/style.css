@@ -262,6 +262,7 @@ a:hover {
 
 img.timeline {
 	margin: 20px 0px;
+	max-width: 100%;
 }
 
 .project-info {
