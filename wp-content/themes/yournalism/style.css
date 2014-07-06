@@ -372,6 +372,14 @@ p {
 	margin: 80px auto;
 	width: 600px;
 	padding: 10px 30px 30px;
+	position: relative;
+	z-index: 150;
+}
+#overlay .donate .close {
+	position: absolute;
+	font-size: 20px;
+	right: 10px;
+	top: 10px;
 }
 #overlay .donate input {
 	background: #F8F6ED;

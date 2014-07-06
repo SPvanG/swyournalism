@@ -11,7 +11,7 @@ if( $('#donatenow') ) {
 	$('#donatenow').click(function() {
 		$('#overlay').show();
 	});
-	$('#overlay').click(function() {
+	$('#overlay .close').click(function() {
 		$('#overlay').hide();
 	});
 }

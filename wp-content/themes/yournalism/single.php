@@ -59,12 +59,16 @@
 			<div class="<?php echo implode(' ', $types); ?>"><?php the_content(); ?></div>
 	
 			<div class="social">
+				<?php
+				$url = urlencode(get_bloginfo('url') ."/". $post->post_name);
+				$title = urlencode($post->post_title);
+				?>
 				<p>Deel dit met je vrienden</p>
 				<p>
-					<span class="icon"><i class="fa fa-fw fa-twitter"></i></span>
-					<span class="icon"><i class="fa fa-fw fa-facebook"></i></span>
-					<span class="icon"><i class="fa fa-fw fa-linkedin"></i></span>
-					<span class="icon"><i class="fa fa-fw fa-google-plus"></i></span>
+					<a class="icon" target="_blank" href="https://twitter.com/intent/tweet?text=<?php echo $title; ?>&url=<?php echo $url; ?>"><i class="fa fa-fw fa-twitter"></i></a>
+					<a class="icon" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $url; ?>"><i class="fa fa-fw fa-facebook"></i></a>
+					<a class="icon" target="_blank" href=""><i class="fa fa-fw fa-linkedin"></i></a>
+					<a class="icon" target="_blank" href=""><i class="fa fa-fw fa-google-plus"></i></a>
 				</p>
 			</div>
 
@@ -91,10 +95,14 @@
 	<?php if( in_array('proposal', $types) ): ?>
 	<div id="overlay" class="overlay" style="display: none;">
 		<div class="donate">
+			<div class="close"><i class="fa fa-times"></i></div>
+			<form method="get" action="<?php bloginfo('home'); ?>">
+			<input type="hidden" name="donate" value="250">
 			<h1>Doneer &euro;2,50 voor dit voorstel</h1>
 			<p><input type="text" name="email" placeholder="hier jouw e-mailadres"></p>
 			<h2>We sturen je de voorwaarden en betaalinformatie</h2>
 			<button class="button-large" type="submit">Akkoord <i class="fa fa-play"></i></button>
+			</form>
 		</div>
 	</div>
 	<?php endif; ?>
