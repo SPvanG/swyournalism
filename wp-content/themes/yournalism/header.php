@@ -13,9 +13,9 @@
 		<div class="flex"></div>
 		<div class="no-flex">
 			<ul>
-				<li><a href="/about">yournalism is</a></li>
-				<li><a href="/team">wie zijn wij</a></li>
-				<li><a href="/projects">bekijk voorstellen</a></li>
+				<li><a href="<?php bloginfo('siteurl'); ?>/about">yournalism is</a></li>
+				<li><a href="<?php bloginfo('siteurl'); ?>/team">wie zijn wij</a></li>
+				<li><a href="<?php bloginfo('siteurl'); ?>/projects">bekijk voorstellen</a></li>
 			</ul>
 		</div>
 		<div class="flex"></div>
@@ -25,6 +25,6 @@
 			<span class="icon"><i class="fa fa-fw fa-linkedin-square"></i></span>
 			<span class="icon"><i class="fa fa-fw fa-google-plus-square"></i></span>
 		</div>
-		<div class="subtitle">Jij bepaalt het volgende verhaal.</div>
+		<!-- <div class="subtitle">Jij bepaalt het volgende verhaal.</div> -->
 	</div>
 </nav>

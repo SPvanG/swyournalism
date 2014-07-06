@@ -9,31 +9,11 @@
 
 	<div class="container project">
 		<div class="header">
-			<div class="project-type">Voorstel</div>
+			<div class="project-type">Pagina</div>
 			<div class="project-title"><?php the_title(); ?></div>
-			<div class="author">
-				<div class="author-image" style="background-image: url(<?php bloginfo('template_url'); ?>/images/author-huub.jpg);"></div>
-				<div class="author-name">Huub Schuijn <i class="fa fa-play"></i></div>
-			</div>
 		</div>
 
 		<div class="project-info">
-			<div class="info-type">
-				<div class="number">80</div>
-				<div class="description">mensen doneerden</div>
-			</div>
-			<div class="info-type">
-				<div class="number">&euro;2500</div>
-				<div class="description">is het doel</div>
-			</div>
-			<div class="info-type">
-				<div class="number">12 uren</div>
-				<div class="description">te gaan</div>
-			</div>
-			<div class="progressbar">
-				<div class="completed" style="width: calc(70% - 10px);">70%</div>
-			</div>
-			<div class="button">doneer <i class="fa fa-play"></i></div>
 		</div>
 	
 		<div class="content">
