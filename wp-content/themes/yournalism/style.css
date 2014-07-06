@@ -149,8 +149,11 @@ p {
 	padding-right: 200px;
 }
 .header .landing-title {
+	color: #000000;
+	display: block;
 	font-size: 76px;
 	font-weight: bold;
+	text-decoration: none;
 }
 .header .author {
 	position: absolute;

@@ -9,7 +9,7 @@
 
 	<div class="container frontpage">
 		<div class="header">
-			<div class="landing-title"><?php the_title(); ?></div>
+			<a  class="landing-title" href="<?php bloginfo('url'); ?>/projects"><?php the_title(); ?></a>
 		</div>
 
 		<div class="explore">
