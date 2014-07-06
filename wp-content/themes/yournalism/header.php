@@ -14,7 +14,7 @@
 		<div class="no-flex">
 			<ul>
 				<li><a href="<?php bloginfo('siteurl'); ?>/about">yournalism is</a></li>
-				<li><a href="<?php bloginfo('siteurl'); ?>/team">wie zijn wij</a></li>
+				<li><a href="<?php bloginfo('siteurl'); ?>/wie-zijn-wij">wie zijn wij</a></li>
 				<li><a href="<?php bloginfo('siteurl'); ?>/projects">bekijk voorstellen</a></li>
 			</ul>
 		</div>
@@ -25,6 +25,5 @@
 			<a class="icon" href="http://www.linkedin.com/company/yournalism" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i></a>
 			<a class="icon" href="https://plus.google.com/+YournalismNl_waakhond" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i></a>
 		</div>
-		<!-- <div class="subtitle">Jij bepaalt het volgende verhaal.</div> -->
 	</div>
 </nav>

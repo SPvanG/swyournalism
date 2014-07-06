@@ -13,14 +13,14 @@ License URI:        http://opensource.org/licenses/MIT
 
 @font-face {
     font-family: 'avenir';
-    src: url('./fonts/AvenirNext-Medium.otf') format('otf');
+    src: url('./fonts/AvenirNext-Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'avenir';
-    src: url('./fonts/AvenirNext-DemiBold.otf') format('otf');
+    src: url('./fonts/AvenirNext-DemiBold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -38,9 +38,11 @@ body {
 
 .button {
 	background: #FDD313;
+	border: 0px;
 	text-align: center;
 	font-weight: bold;
 	padding: 5px 0px;
+	width: 100%;
 }
 .button i {
 	color: #FFFFFF;
@@ -133,7 +135,7 @@ p {
 	background: #FDD313;
 	padding: 10px 20px;
 	position: relative;
-	min-height: 100px;
+	min-height: 150px;
 }
 
 .header .project-type {
@@ -287,7 +289,31 @@ p {
 	text-decoration: none;
 }
 
+.proposals {
+	margin: 30px 20px 50px;
+	min-height: 300px;
+}
 
+.proposals .proposal {
+	float: left;
+	display: inline-block;
+	height: 300px;
+	width: 240px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 20px 20px 0px;
+}
+.proposals .proposal .proposal-image {
+	width: 240px;
+	height: 160px;
+	margin-bottom: 10px;
+	background: #EEEEEE no-repeat center center;
+	background-size: cover;
+}
+.proposals .proposal a {
+	color: #000000;
+	text-decoration: none;
+}
 .footer {
 	background: #F8F6ED;
 	height: 80px;

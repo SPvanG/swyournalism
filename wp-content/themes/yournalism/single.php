@@ -10,6 +10,17 @@
 	$meta = get_post_meta( $post->ID );
 	?>
 
+	<?php if( in_array('proposal', $types) ): ?>
+	<div id="overlay" class="overlay" style="display: none;">
+		<div class="donate">
+			<h1>Doneer &euro;2,50 voor dit voorstel</h1>
+			<p><input type="text" name="email" placeholder="hier jouw e-mailadres"></p>
+			<h2>We sturen je de voorwaarden en betaalinformatie</h2>
+			<button class="button-large" type="submit">Akkoord</button>
+		</div>
+	</div>
+	<?php endif; ?>
+
 
 	<?php if (has_post_thumbnail() ) : ?>
 		<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
@@ -18,7 +29,7 @@
 
 	<div class="container project">
 		<div class="header">
-			<div class="project-type">Voorstel</div>
+			<?php if(in_array('proposal', $types)): ?><div class="project-type">Voorstel</div><?php endif; ?>
 			<div class="project-title"><?php the_title(); ?></div>
 			<div class="author">
 				<div class="author-image" style="background-image: url(<?php bloginfo('template_url'); ?>/images/author-huub.jpg);"></div>
@@ -43,7 +54,7 @@
 				<div class="progressbar">
 					<div class="completed" style="width: calc(<?php echo $meta['completed'][0]; ?>% - 10px);"><?php echo $meta['completed'][0]; ?>%</div>
 				</div>
-				<div class="button">doneer <i class="fa fa-play"></i></div>
+				<button class="button">doneer <i class="fa fa-play"></i></button>
 			<?php endif; ?>
 			<?php if (in_array('project', $types) ): ?>
 				<div class="board">
@@ -81,8 +92,6 @@
 		</div>
 
 	</div>
-
-
 
 <?php endwhile; ?>
 
