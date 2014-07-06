@@ -96,7 +96,7 @@
 	<div id="overlay" class="overlay" style="display: none;">
 		<div class="donate">
 			<div class="close"><i class="fa fa-times"></i></div>
-			<form method="get" action="<?php bloginfo('home'); ?>">
+			<form method="get" action="<?php bloginfo('url'); ?>/bedankt">
 			<input type="hidden" name="donate" value="250">
 			<h1>Doneer &euro;2,50 voor dit voorstel</h1>
 			<p><input type="text" name="email" placeholder="hier jouw e-mailadres"></p>
