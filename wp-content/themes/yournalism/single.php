@@ -67,8 +67,8 @@
 				<p>
 					<a class="icon" target="_blank" href="https://twitter.com/intent/tweet?text=<?php echo $title; ?>&url=<?php echo $url; ?>"><i class="fa fa-fw fa-twitter"></i></a>
 					<a class="icon" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $url; ?>"><i class="fa fa-fw fa-facebook"></i></a>
-					<a class="icon" target="_blank" href=""><i class="fa fa-fw fa-linkedin"></i></a>
-					<a class="icon" target="_blank" href=""><i class="fa fa-fw fa-google-plus"></i></a>
+					<a class="icon" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url; ?>&title=<?php echo $title; ?>"><i class="fa fa-fw fa-linkedin"></i></a>
+					<a class="icon" target="_blank" href="https://plus.google.com/share?url=<?php echo $url; ?>"><i class="fa fa-fw fa-google-plus"></i></a>
 				</p>
 			</div>
 
