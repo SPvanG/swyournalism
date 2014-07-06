@@ -1,20 +1,25 @@
-<?php
-/*
-Template Name: Proposal template
-*/
-get_header();
-?>
+<?php get_header(); ?>
 
-	<div class="header-image" style="background-image: url(<?php bloginfo('template_url'); ?>/images/header-proposals.jpg);"></div>
+<?php while ( have_posts() ) : the_post(); ?>
 
-	<div class="container listing">
+	<?php if (has_post_thumbnail() ) : ?>
+		<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+		<div class="header-image" style="background-image: url(<?php echo $url; ?>);"></div>
+	<?php endif; ?>
+
+	<div class="container frontpage">
 		<div class="header">
-			<div class="project-title">Voorstellen</div>	
+			<div class="landing-title"><?php the_title(); ?></div>
+		</div>
+
+		<div class="explore">
+			<span class="desc">Zoeken</span>
+			<input type="text" class="explore-bar">			
 		</div>
 
 		<div class="proposals">
 		<?php 
-		$projects = get_posts(array( 'posts_per_page' => 12 ));
+		$projects = get_posts(array( 'posts_per_page' => 3 ));
 		if( !empty($projects) ) foreach( $projects as $project ):
 			if( has_post_thumbnail($project->ID) ) $url = wp_get_attachment_url( get_post_thumbnail_id($project->ID) ); 
 			else $url = '';
@@ -28,7 +33,10 @@ get_header();
 		</div>
 
 		<div class="clearfix"></div>
-	
 	</div>
+
+
+
+<?php endwhile; ?>
 
 <?php get_footer(); ?>

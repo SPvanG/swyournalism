@@ -71,7 +71,7 @@
 			<div class="section-related">
 				<h2>Andere voorstellen</h2>
 				<?php 
-				$projects = get_posts(array( 'exclude' => $post->ID ));
+				$projects = get_posts(array( 'exclude' => $post->ID, 'posts_per_page' => 12 ));
 				if( !empty($projects) ) foreach( $projects as $project ): ?>
 					<?php if( has_post_thumbnail($project->ID) ) $url = wp_get_attachment_url( get_post_thumbnail_id($project->ID) ); else $url = ''; ?>
 					<div class="related">

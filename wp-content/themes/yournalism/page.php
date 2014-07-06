@@ -17,26 +17,6 @@
 	
 		<div class="content">
 			<div><?php the_content(); ?></div>
-	
-			<div class="social">
-				<p>Deel dit met je vrienden</p>
-				<p>
-					<span class="icon"><i class="fa fa-fw fa-twitter"></i></span>
-					<span class="icon"><i class="fa fa-fw fa-facebook"></i></span>
-					<span class="icon"><i class="fa fa-fw fa-linkedin"></i></span>
-					<span class="icon"><i class="fa fa-fw fa-google-plus"></i></span>
-				</p>
-			</div>
-
-			<div class="section-related">
-				<h2>Andere voorstellen</h2>
-				<div class="related">
-					<div class="related-image" style="background-image:url(<?php bloginfo('template_url');?>/images/author-huub.jpg)"></div>
-					<a href="">titel moet hier nog komen</a>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-
 		</div>
 
 	</div>

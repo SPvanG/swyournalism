@@ -148,6 +148,10 @@ p {
 	font-weight: bold;
 	padding-right: 200px;
 }
+.header .landing-title {
+	font-size: 76px;
+	font-weight: bold;
+}
 .header .author {
 	position: absolute;
 	background: #FDD313;
@@ -180,6 +184,29 @@ p {
 	width: 100%;
 	height: 130px;
 }
+
+.explore {
+	background: #FDD313;
+	margin: 40px 0px;
+	padding: 20px;
+}
+.explore .desc {
+	font-size: 38px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.explore .explore-bar {
+	background: #F8F6ED;
+	border: 0;
+	font-size: 28px;
+	float: right;
+	line-height: 40px;
+	height: 40px;
+	vertical-align: bottom;
+	width: 700px;
+	padding: 0px 20px;
+}
+
 
 .project .content {
 	padding: 10px 0px 20px 20px;
@@ -275,7 +302,7 @@ p {
 	width: 160px;
 	font-size: 14px;
 	font-weight: bold;
-	margin: 0px 10px 20px 0px
+	margin: 0px 10px 40px 0px
 }
 .related .related-image {
 	width: 160px;
@@ -290,8 +317,9 @@ p {
 }
 
 .proposals {
-	margin: 30px 20px 50px;
+	margin: 30px auto 50px;
 	min-height: 300px;
+	width: 780px;
 }
 
 .proposals .proposal {
