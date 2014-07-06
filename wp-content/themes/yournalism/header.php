@@ -4,6 +4,7 @@
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/algemeen.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+	<?php wp_head(); ?>
 </head>
 <body>
 
